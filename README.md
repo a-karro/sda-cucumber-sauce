@@ -3,7 +3,7 @@
 Loosely based on https://www.hindsightsoftware.com/blog/cucumber-jvm-intellij
 
 #### Setup
-1. clone the repository with `git clone git@github.com/a-karro/sda-cucumber-sauce`
+1. clone the repository with `git clone https://github.com/a-karro/sda-cucumber-sauce`
 2. Make sure you have Chrome web browser installed on your computer
 3. Check the version of your Chrome browser
 4. Download the chromedriver executable from https://chromedriver.chromium.org/home. Choose the version that matches the major version of your Chrome browser, e.g., if your browser version starts with 86., you should download chromedriver v 86.
@@ -15,7 +15,7 @@ Loosely based on https://www.hindsightsoftware.com/blog/cucumber-jvm-intellij
     * More info: https://stackoverflow.com/questions/60362018/macos-catalinav-10-15-3-error-chromedriver-cannot-be-opened-because-the-de
 7. Open the cloned project in the IntelliJ Idea
 8. Open the file: `src/test/java/stepdefs/BaseSteps.java`
-9. Edit the line with `System.setProperty`, specify the location of your chromedriver instead of `c:\\temp....`
+9. Edit the line with `System.setProperty`, specify the location of your chromedriver instead of `c:\\temp....`, or, alternatively, copy the `chromedriver.exe` to `c:\temp`
 10. right click on `src/test/resoures/login.feature` and run it.
 
 
@@ -35,7 +35,7 @@ https://chrome.google.com/webstore/detail/xpath-finder/ihnknokegkbpmofmafnkoadfj
 
        _______  ___     ___________________________  ____
       / __/ _ \/ _ |   /_  __/ __/ __/_  __/ __/ _ \/ __/
-     _\ \/ // / __ |    / / / _/_\ \  / / / _// , _/\ \  
+     _\ \/ // / __ |    / / / _/_\ \  / / / _// , _/\ \   
     /___/____/_/ |_|   /_/ /___/___/ /_/ /___/_/|_/___/  
                                                      
                                                      
